@@ -1,0 +1,186 @@
+      .view {
+      	margin: auto;
+      	width: 100%;
+      }
+
+      .wrapper {
+      	position: relative;
+      	overflow: auto;
+      	/* border: 1px solid black; */
+      	white-space: nowrap;
+      }
+
+      .sticky-col {
+      	position: -webkit-sticky;
+      	position: sticky;
+      	background-color: white !important;
+      }
+
+      .first-col {
+      	width: 50px;
+      	min-width: 50px;
+      	max-width: 50px;
+      	left: 0px;
+      	background-color: #fafafa !important;
+      }
+
+      .second-col {
+      	width: 50;
+      	min-width: 50px;
+      	max-width: 50;
+      	left: 50px;
+      	background-color: #fafafa !important;
+      }
+
+      .lastone-col {
+      	width: 100px;
+      	min-width: 100px;
+      	max-width: 100px;
+      	right: 0px;
+      	background-color: #fafafa !important;
+      }
+
+      /* Ensure that the demo table scrolls */
+      th,
+      td {
+      	white-space: nowrap;
+      }
+
+      div.dataTables_wrapper {
+      	width: 800px;
+      	margin: 0 auto;
+      }
+
+
+
+      .horizontal-scroll-except-first-column {
+      	width: 100%;
+      	overflow: auto;
+      }
+
+      .horizontal-scroll-except-first-column>table {
+      	margin-left: 8em;
+      }
+
+      .horizontal-scroll-except-first-column>table>*>tr>th:first-child,
+      .horizontal-scroll-except-first-column>table>*>tr>td:first-child {
+      	position: absolute;
+      	width: 8em;
+      	margin-left: -8em;
+      	background: #fff;
+      	height: 46px;
+      }
+
+      .horizontal-scroll-except-first-column>table>*>tr>th,
+      .horizontal-scroll-except-first-column>table>*>tr>td {
+      	/* Without this, if a cell wraps onto two lines, the first column
+   * will look bad, and may need padding. */
+      	white-space: nowrap;
+      }
+
+
+
+
+      .Titlebar {
+      	padding: 10px;
+      	color: #ffffff;
+      }
+
+      .active {
+      	color: blue !important;
+      }
+
+      .datepicker.datepicker-dropdown {
+      	max-width: none;
+      	width: auto;
+      	left: auto;
+      }
+
+      .ui-datepicker-trigger {
+      	background-image: url('/assets/Date.png');
+      	background-position: center right;
+      	background-repeat: no-repeat;
+      	border: 2px solid #227574;
+      	width: 30px;
+      	height: 30px;
+      }
+
+      .ui-datepicker {
+      	z-index: 9999 !important;
+      }
+
+      .status-box {
+      	padding: 3px 3px;
+      	border-radius: 7px;
+      	vertical-align: middle;
+      	/* จัดกึ่งกลางในแนวตั้ง */
+      	text-align: center;
+      	/* จัดกึ่งกลางในแนวนอน */
+      }
+
+      .status-yellow {
+      	background-color: #ffc107;
+      	color: #000;
+      }
+
+      .status-green {
+      	background-color: #28a745;
+      	color: #fff;
+      }
+
+      .status-red {
+      	background-color: #dc3545;
+      	color: #fff;
+      }
+
+      .Type-ocean {
+      	background-color: #66CC99;
+      	color: #fff;
+      }
+
+      .Type-crimson {
+      	background-color: #CC6666;
+      	color: #fff;
+      }
+
+      .status-unknown {
+      	background-color: #6c757d;
+      	color: #fff;
+      }
+
+      .red-text {
+      	color: red;
+      }
+
+      .readonly-input {
+      	background-color: #ffffff;
+      }
+
+      .bootstrap-select .btn {
+      	background-color: #ffffff;
+      	border-color: none;
+      }
+
+      .bootstrap-select .filter-option {
+      	color: #000000;
+      }
+
+      .bootstrap-select .btn:focus,
+      .bootstrap-select .btn.active {
+      	background-color: #ffffff;
+      }
+
+      .bootstrap-select .btn.dropdown-toggle {
+      	color: #000000;
+      }
+
+      .Titlebar {
+      	padding: 10px;
+      	color: #ffffff;
+      }
+
+      .active {
+      	color: blue !important;
+      }
+
+      .xWBtnManage {}

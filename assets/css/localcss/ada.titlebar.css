@@ -1,0 +1,22 @@
+.Titlebar {
+    padding: 10px;
+    color: #ffffff;
+}
+
+.active {
+    color: blue !important;
+}
+
+/* Custom CSS for Tooltip */
+.tooltip-inner {
+    text-align: left;
+    max-width: 300px;
+    background-color: #f0f0f0;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-right: px;
+    margin-top: 0px;
+    margin-left: -280px;
+   
+}

@@ -1,0 +1,60 @@
+/* Start Edit Css Global */
+.bootstrap-select > .dropdown-toggle.bs-placeholder,
+.bootstrap-select > .dropdown-toggle.bs-placeholder:active,
+.bootstrap-select > .dropdown-toggle.bs-placeholder:focus,
+.bootstrap-select > .dropdown-toggle.bs-placeholder:hover {
+    color: #000000 !important;
+    background: white !important;
+    border: 1px solid #ced4da;
+}
+
+.input-group .bootstrap-select.form-control .dropdown-toggle {
+    color: #000000 !important;
+    background: white !important;
+    border: 1px solid #ced4da;
+}
+
+/* สำหรับเบราว์เซอร์ Chrome, Safari, Edge และ Opera */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* สำหรับเบราว์เซอร์ Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.bootstrap-select.is-invalid .btn.dropdown-toggle {
+    border-color: #dc3545 !important;
+}
+
+.form-select.is-invalid {
+    padding-right: 0 !important;
+}
+.form-control.is-invalid {
+    z-index: unset !important;
+}
+
+.dropdown-item.active {
+    color: white !important;
+}
+.dropdown-menu.show {
+    width: 100%;
+}
+
+/* End Edit Css Global  */
+
+.xCNCursorPointer {
+    cursor: pointer;
+}
+
+.xCNWorkingBg {
+    opacity: 0.2;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 50%;
+    z-index: -10000;
+}
